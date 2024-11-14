@@ -23,6 +23,36 @@ header {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
   color: white;
   font-family: var(--fonte01);
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+
+nav {
+  background-color: var(--cor04);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav > a {
+  font-family: var(--fonte01);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav > a:hover {
+  background-color: var(--cor02);
+  color: var(--cor03);
+  border-radius: 7px;
+}
+
+main h1 {
+  font-size: 1.7em;
 }
 
 main h1, h2 {
