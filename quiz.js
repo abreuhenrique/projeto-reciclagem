@@ -1,22 +1,22 @@
 const questions = [
     {
-        question: "Em quais desses lugares abaixo posso descarta uma bateria velha?",
-        options: ["Lixo comum", "Lixo de reciclagem eletronica", "Lixo de casa", "Maranhão"],
+        question: "Em quais desses lugares abaixo posso descartar uma bateria velha?",
+        options: ["Lixo comum", "Lixo de reciclagem eletrônica", "Lixo de casa", "Maranhão"],
         answer: 1
     },
     {
-        question: "Quais desses paises mais reciclam lixos eletronicos?",
+        question: "Quais desses países mais reciclam lixo eletrônico?",
         options: ["Estados Unidos", "Inglaterra", "Estônia", "Brasil"],
         answer: 2
     },
     {
-        question: "",
+        question: "Qual é o maior predador de felinos?",
         options: ["Chita", "Gavião", "Cavalo", "Coelho"],
         answer: 0
     },
     {
         question: "Qual é o menor país do mundo?",
-        options: ["Monaco", "Malta", "Vaticano", "San Marino"],
+        options: ["Mônaco", "Malta", "Vaticano", "San Marino"],
         answer: 2
     },
     {
@@ -35,7 +35,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "Quantos planetas têm no sistema solar?",
+        question: "Quantos planetas há no sistema solar?",
         options: ["7", "8", "9", "10"],
         answer: 1
     },
@@ -93,7 +93,7 @@ function checkAnswer(selectedOption) {
         feedback.style.color = "green";
         score++;
     } else {
-        feedback.textContent = Incorreto! A resposta correta é: ${questionData.opFtions[questionData.answer]};
+        feedback.textContent = `Incorreto! A resposta correta é: ${questionData.options[questionData.answer]}`;
         feedback.style.color = "red";
     }
     document.getElementById("next-button").style.display = "block";
@@ -110,7 +110,7 @@ function nextQuestion() {
 
 function showResult() {
     const scorePercentage = Math.round((score / questions.length) * 100);
-    document.getElementById("score").textContent = scorePercentage;
+    document.getElementById("score").textContent = `${scorePercentage}%`;
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result-screen").style.display = "block";
 }
