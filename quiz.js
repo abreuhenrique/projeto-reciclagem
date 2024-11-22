@@ -1,34 +1,54 @@
 const questions = [
-    {
-        question: "Em quais desses lugares abaixo posso descartar uma bateria velha?",
-        options: ["Lixo comum", "Lixo de reciclagem eletrônica", "Lixo de casa", "Maranhão"],
-        answer: 1
-    },
-    {
-        question: "Quais desses países mais reciclam lixo eletrônico?",
-        options: ["Estados Unidos", "Inglaterra", "Estônia", "Brasil"],
-        answer: 2
-    },
-    {
-        question: "O que é lixo eletrônico?",
-        options: ["Qualquer tipo de lixo doméstico", "Aparelhos eletrônicos descartados", "Resíduos orgânicos"],
-        answer: 1
-    },
-    {
-        question: "Quais materiais podem ser reciclados de um eletrônico?",
-        options: ["Plastico", "Cobre", "Vidro"],
-        answer: 1
-    },
-    {
-        question: "Qual metal é frequentimente encontrado no lixo eletrônico?",
-        options: ["Ouro", "Chumbo", "Ferro", "Cobre"],
-        answer: 1
-    },
-    {
-        question: "Qual é o principal benefício da reciclagem de aparelhos eletrônicos?",
-        options: ["Sustentabilidade", "Geração", "Consumo"],
-        answer: 0
-    }
+  {
+    question: "O que é lixo eletrônico?",
+    options: [
+      "Apenas baterias descartadas",
+      "Equipamentos eletrônicos quebrados ou obsoletos",
+      "Materiais plásticos de uso comum",
+      "Comida estragada"
+    ],
+    correctAnswer: 1
+  },
+  {
+    question: "Por que é importante reciclar o lixo eletrônico?",
+    options: [
+      "Porque ele ocupa muito espaço nos aterros sanitários",
+      "Porque os componentes eletrônicos podem ser reciclados e reutilizados",
+      "Porque os eletrônicos são perigosos para a saúde e para o meio ambiente",
+      "Todas as alternativas acima"
+    ],
+    correctAnswer: 3
+  },
+  {
+    question: "Quais materiais podem ser recuperados de um lixo eletrônico?",
+    options: [
+      "Metais como ouro, cobre e prata",
+      "Plásticos e vidro",
+      "Placas de circuito impresso",
+      "Todos os itens acima"
+    ],
+    correctAnswer: 3
+  },
+  {
+    question: "Onde deve ser descartado corretamente o lixo eletrônico?",
+    options: [
+      "Em qualquer lixeira comum",
+      "Em pontos de coleta específicos para eletrônicos",
+      "Em lixeiras de recicláveis",
+      "No lixo orgânico"
+    ],
+    correctAnswer: 1
+  },
+  {
+    question: "Quais problemas podem ocorrer se o lixo eletrônico for descartado de maneira inadequada?",
+    options: [
+      "Contaminação do solo e da água com substâncias tóxicas",
+      "Aumento da poluição do ar",
+      "Riscos à saúde humana devido à exposição a metais pesados",
+      "Todas as alternativas acima"
+    ],
+    correctAnswer: 3
+  }
 ];
 
 let currentQuestion = 0;
