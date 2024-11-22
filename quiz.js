@@ -10,44 +10,14 @@ const questions = [
         answer: 2
     },
     {
-        question: "Qual é o maior predador de felinos?",
-        options: ["Chita", "Gavião", "Cavalo", "Coelho"],
-        answer: 0
-    },
-    {
-        question: "Qual é o menor país do mundo?",
-        options: ["Mônaco", "Malta", "Vaticano", "San Marino"],
-        answer: 2
-    },
-    {
-        question: "Quantos continentes existem no mundo?",
-        options: ["5", "6", "7", "8"],
-        answer: 2
-    },
-    {
-        question: "Qual é o elemento químico representado pelo símbolo 'O'?",
-        options: ["Ouro", "Oxigênio", "Ósmio", "Osso"],
+        question: "O que é lixo eletrônico?",
+        options: ["Qualquer tipo de lixo doméstico", "Aparelhos eletrônicos descartados", "Resíduos orgânicos"],
         answer: 1
     },
     {
-        question: "Qual é o maior oceano do mundo?",
-        options: ["Atlântico", "Índico", "Pacífico", "Ártico"],
-        answer: 2
-    },
-    {
-        question: "Quantos planetas há no sistema solar?",
-        options: ["7", "8", "9", "10"],
+        question: "Qual metal é frequentemente encontrado no lixo eletrônico?",
+        options: ["Ouro", "Chumbo", "Ferro", "Cobre"],
         answer: 1
-    },
-    {
-        question: "Qual é o deserto mais seco do mundo?",
-        options: ["Saara", "Atacama", "Gobi", "Kalahari"],
-        answer: 1
-    },
-    {
-        question: "Quem pintou a Mona Lisa?",
-        options: ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-        answer: 2
     }
 ];
 
