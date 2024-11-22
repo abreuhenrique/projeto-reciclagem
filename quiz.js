@@ -15,9 +15,19 @@ const questions = [
         answer: 1
     },
     {
-        question: "Qual metal é frequentemente encontrado no lixo eletrônico?",
+        question: "Quais materiais podem ser reciclados de um eletrônico?",
+        options: ["Plastico", "Cobre", "Vidro"],
+        answer: 1
+    },
+    {
+        question: "Qual metal é frequentimente encontrado no lixo eletrônico?",
         options: ["Ouro", "Chumbo", "Ferro", "Cobre"],
         answer: 1
+    },
+    {
+        question: "Qual é o principal benefício da reciclagem de aparelhos eletrônicos?",
+        options: ["Sustentabilidade", "Geração", "Consumo"],
+        answer: 0
     }
 ];
 
