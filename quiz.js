@@ -80,7 +80,7 @@ function nextQuestion() {
 
 function showResult() {
     const scorePercentage = Math.round((score / questions.length) * 100);
-    document.getElementById("score").textContent = `${scorePercentage}%`;
+    document.getElementById("score").textContent = `${scorePercentage}`;
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result-screen").style.display = "block";
 }
