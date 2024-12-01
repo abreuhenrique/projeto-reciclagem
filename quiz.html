@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz de Perguntas</title>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,6 +24,7 @@
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.192);
             width: 300px;
             text-align: center;
+            margin: auto;
         }
 
         button {
@@ -49,27 +50,33 @@
 </head>
 
 <body>
-    <div class="quiz-container">
-        <h1>Quiz de Perguntas</h1>
-
-        <div id="welcome-screen">
-            <label for="username">Digite seu nome:</label>
-            <input type="text" id="username" placeholder="Seu nome" required>
-            <button onclick="startQuiz()">Iniciar Quiz</button>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="#">Dicas</a>
+        <a href="#">Contato</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+    <main>
+        <div class="quiz-container">
+            <h1>Quiz de Perguntas</h1>
+            <div id="welcome-screen">
+                <label for="username">Digite seu nome:</label>
+                <input type="text" id="username" placeholder="Seu nome" required>
+                <button onclick="startQuiz()">Iniciar Quiz</button>
+            </div>
+            <div id="quiz" style="display:none;">
+                <div id="question-container"></div>
+                <div id="feedback"></div>
+                <button id="next-button" onclick="nextQuestion()" style="display:none;">Próxima</button>
+            </div>
+            <div id="result-screen" style="display:none;">
+                <h2>Obrigado, <span id="user-name-display"></span>!</h2>
+                <p>Sua pontuação é: <span id="score"></span>%</p>
+                <button onclick="restartQuiz()">Refazer Quiz</button>
+            </div>
         </div>
-
-        <div id="quiz" style="display:none;">
-            <div id="question-container"></div>
-            <div id="feedback"></div>
-            <button id="next-button" onclick="nextQuestion()" style="display:none;">Próxima</button>
-        </div>
-
-        <div id="result-screen" style="display:none;">
-            <h2>Obrigado, <span id="user-name-display"></span>!</h2>
-            <p>Sua pontuação é: <span id="score"></span>%</p>
-            <button onclick="restartQuiz()">Refazer Quiz</button>
-        </div>
-    </div>
+    </main>
     <script src="quiz.js"></script>
 </body>
 

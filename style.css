@@ -7,10 +7,10 @@
 }
 
 :root {
-    --cor01: #249ded6c;
-    --cor02: #23d8f075;
-    --cor03: #23D8F0;
-    --cor04: #2496ED;
+    --cor01: #F5F5F5;
+    --cor02: #3A7D44;
+    --cor03: #0077B6;
+    --cor04: #333333;
     --fonte01: "Montserrat", sans-serif;
     --fonte02: "Roboto", sans-serif
 }
@@ -46,9 +46,14 @@ nav > a {
 }
 
 nav > a:hover {
-  background-color: var(--cor02);
-  color: var(--cor03);
+  background-color: var(--cor03
+  );
+  color: var(--cor01);
   border-radius: 7px;
+}
+
+body {
+  background-color: var(--cor01);
 }
 
 main h1 {
@@ -67,6 +72,7 @@ main {
   border-radius: 10px;
   margin: auto;
   padding: 10px;
+  margin-bottom: 15px
 }
 
 p {
@@ -79,8 +85,11 @@ article {
     text-align: justify;
 }
 
-#curiosidades {
-    background-color: var(--cor02);
+.curiosidades {
+    background-color: var(--cor03);
+    color: var(--cor01);
+    font-family: monospace;
+    font-size: 1.1em;
     padding: 5px 5px 10px 10px;
     margin: 10px;
     border: 2px solid rgba(0, 0, 0, 0.295);
