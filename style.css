@@ -97,6 +97,18 @@ article {
     box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.26);
 }
 
+#equipe {
+  background-color: var(--cor03);
+  color: var(--cor01);
+  font-family: var(--fonte01);
+  font-size: 0.9em;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.26);
+}
+
 footer {
     padding-top: 5px;
     background-color: var(--cor01);
