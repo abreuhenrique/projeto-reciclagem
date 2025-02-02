@@ -24,7 +24,7 @@ header {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
   color: white;
   font-family: var(--fonte01);
-  margin-bottom: 5px;
+  margin-bottom: 0.5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
 }
 
@@ -71,10 +71,10 @@ main {
   min-width: 400px;
   max-width: 800px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   margin: auto;
   padding: 10px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 p {
@@ -122,6 +122,16 @@ article {
   border-radius: 10px;
   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.26);
   list-style-position: inside;
+}
+
+.dicasv:hover {
+  border: 2px solid var(--cor04);
+  color: white;
+}
+
+.dicasa:hover {
+  border: 2px solid var(--cor05);
+  color: white;
 }
 
 .dicasa {
